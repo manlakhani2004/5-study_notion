@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Courgette&family=Libre+Franklin&family=Nanum+Myeongjo&family=Oleo+Script+Swash+Caps&family=Outfit:wght@500&display=swap');
+
+
+
+*{
+  font-family: 'ABeeZee',sans-serif;
+}
+
+
+.active{
+  color: rgb(228, 175, 135);
+  font-weight: 600;
+  transition: all ease-in 400ms;
+  font-size: 20px;
+}
